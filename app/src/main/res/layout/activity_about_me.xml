@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <variable
+            name="getname"
+            type="com.example.aboutme.Myname" />
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aboutme.AboutMe">
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@={getname.name}"/>
+
+    <EditText
+        android:id="@+id/et_nickname"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:gravity="center"
+        android:hint="@string/enter_nick_name"
+        android:paddingBottom="@dimen/margin_16dp"
+        android:inputType="text"
+        android:textColorLink="#5C05F6" />
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:layout_below="@id/et_nickname"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={getname.nickname}"
+        android:layout_below="@id/btn_done"
+        style="@style/text_style"
+        android:visibility="gone"/>
+
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nickname"
+        android:contentDescription="@string/txt_star"
+        android:paddingTop="@dimen/padding_8dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/star_image"
+        android:layout_marginTop="@dimen/margin_16dp">
+
+        <TextView
+            android:id="@+id/name_text"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_me" />
+    </ScrollView>
+
+</RelativeLayout>
+</layout>

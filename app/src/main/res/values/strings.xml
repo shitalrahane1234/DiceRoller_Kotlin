@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Dice Roller</string>
     <string name="txt_roll">roll</string>
+    <string name="txt_shital">shital</string>
+    <string name="txt_star">Star</string>
+    <string name="about_me"> I am shital.\n
+        We are five members in my family including me. \n
+        I am native to —— (City Name), and open to relocate to ________ (city name as mentioned in the job description). Currently, I am pursuing B.A. in Economics at the ___________ (University Name), and I will be entering into final year of my graduation studies in the next couple of months. Ever since, I started studying Economics in my school days.
+        \n \nI realized, I enjoy analyzing things connected to the society, and the Mother Nature. Since my childhood days, I have witnessed my family focusing upon correct utilization of house hold items, and guiding us towards understanding the whites, and blacks of the possible outcomes. I believe, this somehow further boosted my interest towards Economics as a career option.
+
+For me Economics is all about making right decisions at the right time, and studying the possible outcomes.
+I have an analytical approach towards things I do. I believe, that helps me to understand a wide range of issues from what determines the price, causes, and consequences.
+I believe, economics is having an excellent graduate prospects. \n\nEconomics is truly all around us. Studying the subject gives me a generalist understanding of the world we live in and its inner workings.
+The case-based learning emphasis on economics degrees makes it really easy to see how the theory has real-life applications, particularly when considering the recent volatility of global markets.</string>
+    <string name="txt_shital_rahane">Shital Rahane</string>
+    <string name="enter_nick_name">What is your nick name?</string>
+    <string name="done">done!</string>
 </resources>
