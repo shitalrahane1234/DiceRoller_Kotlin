@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name="com.example.aboutme.AboutMe">
+        <activity android:name="com.example.aboutme.AboutMe"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.colorViews.ColorMyViews">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
