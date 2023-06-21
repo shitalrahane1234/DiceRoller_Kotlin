@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin_16dp">wed 21 jun 2023</dimen>
-    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_8dp">Second Branch changes</dimen>
     <dimen name="txt_size_24sp">24sp</dimen>
 </resources>
